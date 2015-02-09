@@ -1,0 +1,13 @@
+[{
+    "name": "string"
+  , "age": "number"
+  , "_parent": "oid"
+  , "binary": "buffer"
+  , "array": "array"
+  , "nested": { "works": { "type": "boolean", "default": false }}
+  , "subdocs": { "type": [{ "title": "string" }]}
+}, {
+    "autoIndex": false
+  , "capped": true
+  , "read": "primaryPreferred"
+}]
